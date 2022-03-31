@@ -36,6 +36,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kyazdani42/nvim-tree.lua'
 
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
 Plug 'gruvbox-community/gruvbox'
 call plug#end()
 
