@@ -1,0 +1,13 @@
+GO|GOBIN|around
+expo|export|around
+|go|file
+|veljkomaksimovic|file
+hom|home|file
+exp|export|around
+|bin|file
+g|go|file
+file|filetypes|json
+"roo|"rootPatterns": [$1]|json
+"comm|"command": "${1:}"|json
+"languages|"languageserver": {$1}|json
+plug|plugins|around

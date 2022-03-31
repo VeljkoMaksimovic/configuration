@@ -33,7 +33,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
 Plug 'jiangmiao/auto-pairs'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile','branch': 'release'}
 Plug 'kyazdani42/nvim-tree.lua'
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
@@ -45,5 +45,6 @@ let mapleader = " "
 
 lua dofile(os.getenv("HOME") .. "/.config/nvim/lua/_telescope.lua")
 source <sfile>:h/plugins/telescope.vim
+source <sfile>:h/plugins/coc.vim
 
 colorscheme gruvbox
