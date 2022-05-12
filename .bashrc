@@ -116,9 +116,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export GOBIN=/home/veljkomaksimovic/go/bin
-export GOPATH=/home/veljkomaksimovic/go
-
-export PATH=$PATH:$GOBIN
-
 exec zsh

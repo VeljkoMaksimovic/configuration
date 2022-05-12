@@ -30,7 +30,7 @@ Plug 'nvim-telescope/telescope.nvim'
 " Folowing plugins are here to make telescope work right
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope-fzy-native.nvim'
+Plug 'nvim-telescope/telescope-fzf-native.nvim', {'do':'make'}
 
 Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile','branch': 'release'}
